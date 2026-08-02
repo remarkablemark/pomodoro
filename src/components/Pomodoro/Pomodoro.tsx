@@ -82,7 +82,7 @@ export function Pomodoro() {
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <span
             aria-live="off"
-            className="text-5xl font-bold dark:text-slate-100"
+            className="text-5xl font-bold tabular-nums dark:text-slate-100"
             role="timer"
           >
             {formatTime(timer.timeLeft)}
