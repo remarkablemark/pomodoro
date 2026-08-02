@@ -4,7 +4,9 @@
 [![test](https://github.com/remarkablemark/pomodoro/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/pomodoro/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/remarkablemark/pomodoro/graph/badge.svg?token=ufL1wUHQ5F)](https://codecov.io/gh/remarkablemark/pomodoro)
 
-⚡ Pomodoro
+⏲️ Pomodoro app:
+
+- [Pomodoro](https://remarkablemark.org/pomodoro/)
 
 ## Install
 
