@@ -1,12 +1,21 @@
-# pomodoro
+# Pomodoro
 
 [![build](https://github.com/remarkablemark/pomodoro/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/pomodoro/actions/workflows/build.yml)
 [![test](https://github.com/remarkablemark/pomodoro/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/pomodoro/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/remarkablemark/pomodoro/graph/badge.svg?token=ufL1wUHQ5F)](https://codecov.io/gh/remarkablemark/pomodoro)
 
-⏲️ Pomodoro app:
+⏲️ A Pomodoro timer:
 
-- [Pomodoro](https://remarkablemark.org/pomodoro/)
+- [Demo](https://remarkablemark.org/pomodoro/)
+
+## Features
+
+- 25/5/15 minute Pomodoro timer (15m long break after every 4 work sessions)
+- Circular progress ring with session color coding
+- Start, Pause, Reset, and Skip controls
+- Spacebar keyboard shortcut to start/pause
+- Audio beep and browser notification on completion
+- Dark mode support
 
 ## Install
 
@@ -52,6 +61,10 @@ Your app is ready to be deployed!
 ### `npm run lint`
 
 Checks code quality.
+
+### `npm run lint:fix`
+
+Runs ESLint and fixes auto-fixable issues.
 
 ### `npm run lint:tsc`
 
