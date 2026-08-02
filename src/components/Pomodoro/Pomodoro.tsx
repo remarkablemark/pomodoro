@@ -106,14 +106,14 @@ export function Pomodoro() {
           {timer.isRunning ? 'Pause' : 'Start'}
         </button>
         <button
-          className="cursor-pointer rounded-md border border-transparent px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900 focus:border-slate-300 focus:bg-slate-100 focus:ring-0 focus:outline-none dark:text-slate-400 dark:hover:text-slate-200 dark:focus:border-slate-700 dark:focus:bg-slate-800"
+          className="cursor-pointer rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:border-slate-400 hover:text-slate-900 focus:border-slate-500 focus:bg-slate-100 focus:ring-0 focus:outline-none dark:border-slate-700 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-200 dark:focus:border-slate-500 dark:focus:bg-slate-800"
           onClick={timer.reset}
           type="button"
         >
           Reset
         </button>
         <button
-          className="cursor-pointer rounded-md border border-transparent px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900 focus:border-slate-300 focus:bg-slate-100 focus:ring-0 focus:outline-none dark:text-slate-400 dark:hover:text-slate-200 dark:focus:border-slate-700 dark:focus:bg-slate-800"
+          className="cursor-pointer rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:border-slate-400 hover:text-slate-900 focus:border-slate-500 focus:bg-slate-100 focus:ring-0 focus:outline-none dark:border-slate-700 dark:text-slate-400 dark:hover:border-slate-500 dark:hover:text-slate-200 dark:focus:border-slate-500 dark:focus:bg-slate-800"
           onClick={timer.skip}
           type="button"
         >
