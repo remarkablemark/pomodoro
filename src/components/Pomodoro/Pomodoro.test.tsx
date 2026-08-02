@@ -89,7 +89,7 @@ describe('Pomodoro component', () => {
 
     fireEvent.click(screen.getByRole('button', { name: 'Skip' }));
 
-    expect(screen.getByRole('timer')).toHaveTextContent('05:00');
+    expect(screen.getByRole('timer')).toHaveTextContent('5:00');
     expect(screen.getByText('Short Break')).toBeInTheDocument();
   });
 
@@ -111,7 +111,7 @@ describe('Pomodoro component', () => {
     act(() => vi.advanceTimersByTime(25 * 60 * 1000));
 
     expect(screen.getByText('Short Break')).toBeInTheDocument();
-    expect(screen.getByRole('timer')).toHaveTextContent('05:00');
+    expect(screen.getByRole('timer')).toHaveTextContent('5:00');
     expect(screen.getByText('Completed sessions: 1')).toBeInTheDocument();
 
     const ring = document.querySelector('circle[stroke="currentColor"]');
