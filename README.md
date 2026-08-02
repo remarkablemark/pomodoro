@@ -1,18 +1,18 @@
-# vite-react-tailwind-template
+# pomodoro
 
-[![build](https://github.com/remarkablemark/vite-react-tailwind-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/vite-react-tailwind-template/actions/workflows/build.yml)
-[![test](https://github.com/remarkablemark/vite-react-tailwind-template/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/vite-react-tailwind-template/actions/workflows/test.yml)
+[![build](https://github.com/remarkablemark/pomodoro/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablemark/pomodoro/actions/workflows/build.yml)
+[![test](https://github.com/remarkablemark/pomodoro/actions/workflows/test.yml/badge.svg)](https://github.com/remarkablemark/pomodoro/actions/workflows/test.yml)
 [![codecov](https://codecov.io/gh/remarkablemark/pomodoro/graph/badge.svg?token=ufL1wUHQ5F)](https://codecov.io/gh/remarkablemark/pomodoro)
 
-⚡ Vite React Tailwind Template
+⚡ Pomodoro
 
 ## Install
 
 Clone the repository:
 
 ```sh
-git clone https://github.com/remarkablemark/vite-react-tailwind-template.git
-cd vite-react-tailwind-template
+git clone https://github.com/remarkablemark/pomodoro.git
+cd pomodoro
 ```
 
 Install the dependencies:

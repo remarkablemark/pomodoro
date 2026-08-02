@@ -1,7 +1,7 @@
 {
-  "name": "Vite React Tailwind Template",
-  "short_name": "Vite React Tailwind Template",
-  "description": "Vite React Tailwind Template",
+  "name": "Pomodoro",
+  "short_name": "Pomodoro",
+  "description": "Pomodoro",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
