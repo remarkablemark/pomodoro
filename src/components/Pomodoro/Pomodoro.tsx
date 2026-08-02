@@ -49,9 +49,9 @@ export function Pomodoro() {
   return (
     <section
       aria-label="Pomodoro timer"
-      className="flex w-full max-w-md flex-col items-center gap-6 p-4"
+      className="flex w-full max-w-md flex-col items-center gap-4 p-4"
     >
-      <h1 className="text-3xl font-bold dark:text-slate-100">Pomodoro</h1>
+      <h1 className="text-4xl font-medium text-slate-500">Pomodoro</h1>
 
       <div className="relative h-64 w-64">
         <svg className="h-full w-full -rotate-90" viewBox="0 0 200 200">
