@@ -99,21 +99,21 @@ export function Pomodoro() {
 
       <div className="flex gap-3">
         <button
-          className="cursor-pointer rounded-md border border-slate-300 bg-slate-50 px-6 py-2 text-sm font-medium text-slate-800 shadow-xs transition-all hover:border-slate-800 hover:bg-slate-100 focus:border-slate-800 focus:ring-2 focus:ring-slate-400 focus:outline-none active:border-slate-800 active:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:border-slate-500 dark:hover:bg-slate-700 dark:focus:border-slate-500 dark:active:border-slate-500"
+          className="cursor-pointer rounded-md border border-slate-300 bg-slate-50 px-6 py-2 text-sm font-medium text-slate-800 shadow-xs transition-all hover:border-slate-800 hover:bg-slate-100 focus:border-slate-800 focus:bg-slate-100 focus:ring-0 focus:outline-none active:border-slate-800 active:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:border-slate-500 dark:hover:bg-slate-700 dark:focus:border-slate-500 dark:focus:bg-slate-800 dark:active:border-slate-500"
           onClick={timer.toggle}
           type="button"
         >
           {timer.isRunning ? 'Pause' : 'Start'}
         </button>
         <button
-          className="cursor-pointer rounded-md border border-transparent px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900 focus:ring-2 focus:ring-slate-400 focus:outline-none dark:text-slate-400 dark:hover:text-slate-200"
+          className="cursor-pointer rounded-md border border-transparent px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900 focus:border-slate-300 focus:bg-slate-100 focus:ring-0 focus:outline-none dark:text-slate-400 dark:hover:text-slate-200 dark:focus:border-slate-700 dark:focus:bg-slate-800"
           onClick={timer.reset}
           type="button"
         >
           Reset
         </button>
         <button
-          className="cursor-pointer rounded-md border border-transparent px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900 focus:ring-2 focus:ring-slate-400 focus:outline-none dark:text-slate-400 dark:hover:text-slate-200"
+          className="cursor-pointer rounded-md border border-transparent px-4 py-2 text-sm font-medium text-slate-600 transition-colors hover:text-slate-900 focus:border-slate-300 focus:bg-slate-100 focus:ring-0 focus:outline-none dark:text-slate-400 dark:hover:text-slate-200 dark:focus:border-slate-700 dark:focus:bg-slate-800"
           onClick={timer.skip}
           type="button"
         >
