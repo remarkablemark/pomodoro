@@ -74,7 +74,7 @@ export function Pomodoro() {
             stroke="currentColor"
             strokeDasharray={CIRCUMFERENCE}
             strokeDashoffset={offset}
-            strokeLinecap="round"
+            strokeLinecap="butt"
             strokeWidth="12"
           />
         </svg>
